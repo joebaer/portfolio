@@ -9,7 +9,7 @@ $ node -v
 ```
 
 ### Installation
-You are user `my-username`. First create a empty github repository for your project. Call this repository something like `my-repository`.
+You are github user `my-username`. First create a empty github repository for your project. Call this repository something like `my-repository`.
 Copy the repository url to the clipboard.
 
 ```bash
