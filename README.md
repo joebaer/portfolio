@@ -41,6 +41,6 @@ in the second terminal:
 ```bash
 $ npm run production
 ```
-This builds the application and exports the the `.html`, `.css` and `.js` files to the `dist` directory. These files are ready to upload to the production webserver.
+This builds the application and exports the the `.html`, `.css` and `.js` files to the `dist` directory. These files are ready to upload to a production webserver.
 
 Enjoy!
