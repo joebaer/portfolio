@@ -1,34 +1,41 @@
 # portfolio-joebaer
 
-## first time installation
+## First time installation
 
-### prerequisites
+### Prerequisites
 * nodejs >= 14.17.6 ([https://nodejs.org/en/download/](https://nodejs.org/en/download/))
 ```bash
-# node -v
+$ node -v
 ```
 
-### installation
+### Installation
+You are user `my-username`. First create a empty github repository for your project. Call this repository something like `my-repository`.
+Copy the repository url to the clipboard.
+
 ```bash
-# git clone https://github.com/joebaer/portfolio-joebaer.git
-# npm install
+$ git clone https://github.com/peddn/bulma-starter.git my-repository
+$ git remote set-url origin https://github.com/my-username/my-repository.git
+$ cd my-repository
+$ npm install
 ```
+Commit your changes and push them to your github repository.
 
-## workflow
+
+## Workflow
 
 Open two terminals.
 
-### start development environment
+### Start development environment
 in the first terminal:
 ```bash
-# npm run development
+$ npm run development
 ```
 This starts the development server with automatic live rebuild and reload.  
 
-### build for production
+### Build for production
 in the second terminal:
 ```bash
-# npm run production
+$ npm run production
 ```
 This builds the application and exports the the `.html`, `.css` and `.js` files to the `dist` directory. These files are ready to upload to the production webserver.
 
