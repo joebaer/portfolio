@@ -1,4 +1,4 @@
-# portfolio-joebaer
+# bulma-starter
 
 ## First time installation
 
@@ -9,8 +9,10 @@ $ node -v
 ```
 
 ### Installation
-You are github user `my-username`. First create a empty github repository for your project. Call this repository something like `my-repository`.
-Copy the repository url to the clipboard.
+You are github user `my-username`.
+* Create a empty github repository for your project.
+* Call this repository something like `my-repository`.
+* Copy the repository url to the clipboard.
 
 ```bash
 $ git clone https://github.com/peddn/bulma-starter.git my-repository
@@ -18,7 +20,9 @@ $ git remote set-url origin https://github.com/my-username/my-repository.git
 $ cd my-repository
 $ npm install
 ```
-Commit your changes and push them to your github repository.
+* Edit `README.md`.
+* Commit your changes.
+* Push your changes to your github repository.
 
 
 ## Workflow
